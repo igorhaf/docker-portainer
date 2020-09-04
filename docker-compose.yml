@@ -3,8 +3,10 @@ services:
   portainer:
     image: portainer/portainer
     restart: always
+    expose:
+      - 80
     environment:
-      - VIRTUAL_HOST=seumenu.local
+      - VIRTUAL_HOST={HOSTNAME}
     networks:
       - nginx-proxy
     volumes:
