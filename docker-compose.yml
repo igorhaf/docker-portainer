@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  portainer:
+    image: portainer/portainer
+    restart: always
+    environment:
+      - VIRTUAL_HOST=seumenu.local
+    networks:
+      - nginx-proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./docker/portainer/data:/data
+
+networks:
+  nginx-proxy:
