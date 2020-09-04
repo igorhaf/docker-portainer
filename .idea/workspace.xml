@@ -20,6 +20,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,11 +33,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599249467624</updated>
-      <workItem from="1599249468914" duration="1089000" />
+      <workItem from="1599249468914" duration="2017000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="659" y="526" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599253000145">
+      <screen x="0" y="176" width="1920" height="1040" />
+    </state>
+    <state x="659" y="526" key="#com.intellij.fileTypes.FileTypeChooser/0.176.1920.1040/1920.0.1536.824@0.176.1920.1040" timestamp="1599253000145" />
   </component>
 </project>

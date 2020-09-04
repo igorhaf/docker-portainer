@@ -4,7 +4,7 @@ services:
     image: portainer/portainer
     restart: always
     expose:
-      - 80
+      - 9000
     environment:
       - VIRTUAL_HOST={HOSTNAME}
     networks:
